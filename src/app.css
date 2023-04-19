@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+.app {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100vh;
+}
+
+.task-header {
+  display: inline-block;
+  background-color: skyblue;
+	text-align: center;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+  width: 100%;
+	padding: 10px;
+}
+
+.droppable {
+  width: 300px;
+	height: 500px;
+  background-color: #9E9E9E;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 15px;
+	overflow-y: auto;
+}
+
+.draggable {
+  width: 100px;
+	border-radius: 8px;
+  height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
